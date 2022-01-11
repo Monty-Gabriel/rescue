@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Resgate de Pancho</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style/main.css" rel="stylesheet">
+        <link rel="shortcut icon" href="/jogo1/img/favico.ico" type="image/x-icon">
+     
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="fundoGame" img src="/jogo1/img/fundo_game.jpg" alt="">
+            <div calss= "inicio" id="inicio">
+                    <h1>THE RESCUE</h1>
+                    <p id="parrafo"> Utilize a tecla 'W' para movimentrar a Nave para cima, a tecla 'S' para movimentar a nave para baixo e a tecla 'D' para disparar </p>
+                    <button calss= "butao" id="botao" onclick= "start()">
+                        INICIAR
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <script src="/jogo1/js/jquery-1.11.1.min.js"></script>
+        <script src="/jogo1/js/jquery-collision.min.js"></script>
+        <script src="/jogo1/js/script.js"></script>
+ 
+
+        <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+        <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+        <audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+        <audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+        <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+        <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+    </body>
+
+    <!-- Sons do jogo !-->
+
+
+</html>
